@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+body {
+    background: white;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+hr {
+	height:80px;
+	margin-bottom:-1px;
+	margin-top: -1px;
+}
+
+#header{
+    margin: 0px 0px;
+    width: 500px;
+    position:fixed;
+    z-index:2;
+    text-align:right;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav li a {
+    background-color: rgb(166, 92, 147);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: rgb(235, 209, 228);
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul{
+   display:none;
+   position:absolute;
+   min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top:0px;
+}
+
+.portada{
+    background-color: rgb(245, 234, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen{
+    z-index:1;
+    width: 50%;
+    height: 50%;
+    position:center;
+    margin: 0px;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    font-family: 'Asap', bold;
+    text-align: center;
+     }
+
+.work {
+    background-color: rgb(245, 234, 243);
+    padding: 40px 40px 60px 40px;
+      }
+      
+.work .columna {
+    padding: 20px;
+    border: 4px solid rgb(166, 92, 147);
+    border-radius: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+      }
+      
+.work .columna:hover {
+    color: white;
+    background-color: rgb(166, 92, 147);
+      }
+      
+.work i {
+    font-size: 2.5rem;
+    color: rgb(245, 234, 243);
+    background-color: rgb(166, 92, 147);
+    padding: 8px 19px;
+    border-radius: 50%;
+      }
+      
+.work-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+      }
+      
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+      }
+      
+.badge {
+    margin: 5px;
+      }
+
+.credits {
+    background-color: rgb(166, 92, 147);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+      

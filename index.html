@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Kary Storni">
+    <meta name="description" content="Portfolio Kary Storni">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Kary Storni | DG DW</title>
+    <!-- Favicon -->
+    <link rel="icon" type="imagen/x-icon" href="imagenes/favicon-16x16.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Barra de navegacion -->
+    <div id="header">
+      <ul class="nav">
+              <li><a href="#home"> Home</a></li> 
+              <li><a href="#about"> Sobre mí</a></li> 
+              <li><a href="#cards"> Habilidades</a></li>
+              <li><a href="#contacto"> Contacto</a></li>
+      </ul>
+      </div>
+
+    <!-- Portada -->
+    <section id="home">
+    <div class="portada">
+      <hr>
+      <h1>Hola, soy</h1>
+      <img class="imagen" src="imagenes/kslogo.png" alt="KS Logo">
+      <h2>Diseño & Desarrollo</h2>
+      <hr>
+    </div>
+    </section>
+
+    <!-- Seccion Sobre mi -->
+    <section id="about">
+      <h1>Hola!</h1>
+      <p>Argentina, nacida en Santiago del Estero, residente en la Pcia. de Buenos Aires.</p>
+      <p>Siempre diseñando, aprendiendo y emprendiendo.</p>
+      <p>Experiencia en trabajo en equipo y bajo presión.</p>
+      <p>Tech enthusiast.</p> 
+      <p>Mamá y aliada estratégica.</p>
+    </section>
+    
+    <!-- Seccion Habilidades -->
+    <section id="cards">
+      <div class="container-fluid text-center">
+          <div class="work">
+            <h1>Habilidades</h1>
+            <div class="row">
+    <!-- Diseño Grafico -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-pencil-square"></i>
+            <p class="work-titulo">Diseño Grafico</p>
+            <p>14 años de experiencia en Diseño para impresión offset | Papeleria Comercial, Personal y para Eventos | Fotografia Avanzada - Imdafta </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Corel Draw</span>
+              <span class="badge text-bg-secondary">Illustrator</span>
+              <span class="badge text-bg-secondary">Photoshop</span>
+            </div>
+          </div>
+    <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="work-titulo">Desarrollo Web</p>
+            <p>Full Stack - Codo a Codo 4.0 | Basics of UX/UI with Figma - Ada | Front End Developer - Argentina Programa 4.0 </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">HTML</span>
+              <span class="badge text-bg-secondary">CSS</span>
+              <span class="badge text-bg-secondary">JavaScript</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <hr>
+      <h1>Formulario de Contacto</h1>
+      <div class="col-md-12  text-center">
+        <h4 class="mb-3">Tu Consulta</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Tu Nombre" value="" required>
+              <div class="invalid-feedback">
+                Falta ingresar nombre.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Tu Apellido" value="" required>
+              <div class="invalid-feedback">
+                Falta ingresar apellido.
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email">E-mail <span class="text-muted">(Opcional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="tu_mail@gmail.com">
+            <div class="invalid-feedback">
+              E-mail inválido.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="address">Detalle</label>
+            <input type="text" class="form-control" id="address" placeholder="Detalle su consulta, será respondida a la brevedad" required>
+            <div class="invalid-feedback">
+              Falta ingresar su consulta.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4"></div>				
+            <div class="col-4">
+                <button class="btn btn-secondary btn-lg btn-block" type="submit">Enviar</button>
+            </div>
+            </div>
+      </form>
+     
+      </section>
+
+<footer class="credits">
+  <p> &copy; KS Web Design 2021-2022</p>
+</footer>
+
+      <script src="js/jquery.js"></script>
+      <script src="js/form.validation.js"></script></body>
+
+</body>
+</html>
